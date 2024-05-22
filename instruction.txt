@@ -1,0 +1,17 @@
+//after installing react and here is method of istalling react go to terminal and run this command
+
+
+npx create-react-app projectname
+
+
+//after install then run this command for resizable of component
+
+
+npm install react-resizable
+
+//then start project
+
+npm start 
+
+
+

@@ -1,0 +1,39 @@
+.App {
+  padding: 20px;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+.partition {
+  position: relative;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.split {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.split.H {
+  flex-direction: column;
+}
+
+.split.V {
+  flex-direction: row;
+}
+
+.resizable-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
